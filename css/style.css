@@ -1,0 +1,47 @@
+main{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+a:hover{
+    color: rgba(90, 89, 89, 0.637);
+}
+h2{
+    font-weight: 100;
+    font-size: 32px;
+}
+img{
+    width: 250px;
+    height: 250px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+p.date{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.article{
+    border: 2px solid rgba(12, 11, 11, 0.445);
+    background-color: rgba(131, 52, 52, 0.13);
+    margin: 15px 100px;
+    padding-bottom: 15px ;
+    border-radius: 4px;
+}
+.article>button{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 2px 25px;
+}
+.actors{
+    font-weight: 500;
+    font-size: 19px;
+}
+.button{
+    margin: 5px;
+    padding: 2px 15px;
+}

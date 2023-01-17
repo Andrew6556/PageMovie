@@ -1,47 +1,131 @@
-main{
-    text-align: center;
-}
+/*Обнуление*/
+*{padding:0;margin:0;border:0;}
+*,*:before,*:after{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+nav,footer,header,aside{display:block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display:none;}
+button{cursor:pointer;}
+button::-moz-focus-inner{padding:0;border:0;}
+a,a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+ul li{list-style:none;}
+img{vertical-align:top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit;}
 
-a{
-    text-decoration: none;
-    color: #000;
+img{
+    width: 250px;
+    height: 250px;
 }
 a:hover{
     color: rgba(90, 89, 89, 0.637);
 }
-h2{
-    font-weight: 100;
-    font-size: 32px;
+body{
+    padding: 50px 0;
 }
-img{
-    width: 250px;
-    height: 250px;
-    padding-left: 5px;
-    padding-right: 5px;
+.__container{
+    max-width: 1200px;
+    margin: 0 auto;
 }
-
-p.date{
-    font-weight: 300;
+.wrapper{
+    text-align: center;
+}
+.header__films {
+    display: inline-block;
+}
+.header__film-item {
+    border: 2px solid rgba(12, 11, 11, 0.445);
+    background-color: #83343421;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px 0;
+}
+.header__title-link{
+    color: black;
+    font-size: 54px;
+    margin-bottom: 110px;
+}
+.header__title{
+    margin-bottom: 10px;
+}
+.header__sabtitle-link {
+    color: black;
+    font-size: 34px;
+}
+.header__text {
+    color: rgb(136, 40, 40);
+    font-size: 24px;
+    margin: 10px 0;
+}
+.header__btn {
+    width: 207px;
+    background: #000;
+    padding: 12px 0;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 15px;
+    box-shadow: 2px 4px 1px rgba(0, 0, 0, 0.67);
+}
+/* Главная страница */
+.page {
+    color: black;
+}
+.page p{
+    margin: 8px 0;
+}
+.page__title {
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+.page__sabtitle {
+    color:inherit;
+    font-size: 34px;
+}
+.page__film-date{
+    color: rgba(16, 21, 16, 0.657);
+}
+.page__inner {
+    margin-top: 30px;
+}
+.page__main-title {
+    font-size: 18px;
+    color: #000;
+    margin: 5px 0;
+}
+.page__btn {
+    width: 207px;
+    font-weight: 600;
+    color: #ffffff;
+    background: rgba(249, 2, 2, 0.833);
+    padding: 12px 0;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 15px;
+    box-shadow: 2px 4px 1px rgba(45, 43, 31, 0.67);
+    margin-top: 20px;
+}
+/* сттраница фильма */
+.page-producer p{
+    margin: 10px 0;
+}
+.page-producer__title {
+    font-size: 60px;
+}
+.page-producer__genres {
+    font-size: 26px;
+}
+.page-producer__film-date {
     font-size: 20px;
 }
+.page-producer__film-decor{
+    color: rgba(0, 0, 0, 0.546);
+}
+.page-producer__info {
+    font-size: 20px;
+    color: rgba(0, 0, 255, 0.631);
+}
 
-.article{
-    border: 2px solid rgba(12, 11, 11, 0.445);
-    background-color: rgba(131, 52, 52, 0.13);
-    margin: 15px 100px;
-    padding-bottom: 15px ;
-    border-radius: 4px;
-}
-.article>button{
-    font-size: 16px;
-    font-weight: 500;
-    padding: 2px 25px;
-}
-.actors{
-    font-weight: 500;
-    font-size: 19px;
-}
-.button{
-    margin: 5px;
-    padding: 2px 15px;
-}
+/* страница режисера */
